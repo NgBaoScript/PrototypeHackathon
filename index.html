@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Thêm thư viện Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Thêm thư viện jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Thêm thư viện Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-nav">
+        <img src="411200473_283536484712285_1687279601020422911_n-removebg-preview.png" alt="" width="80" height="80">
+        <div class="nav-text">
+            <a href="">TRANG CHỦ</a>
+            <a href="/loading.html">DIỄN ĐÀN <i style="margin-left: 5px;" class="fa-solid fa-angle-down"></i></a>
+            <a href="/loading.html">VỀ CHÚNG TÔI <i style="margin-left: 5px;" class="fa-solid fa-angle-down"></i></a>
+            <a href="/loading.html">SỨ MỆNH CHÚNG TÔI <i style="margin-left: 5px;"
+                    class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div class="nav-user">
+            <a href="/loading.html">
+                <i class="fa-solid fa-clipboard-list"></i>
+            </a>
+            <a href="/loading.html">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a href="/loading.html">
+                <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="introduce-main">
+        <div class="bg-introduce">
+            <div class="text-introduce">
+                <h3>
+                    Chúng tôi đang tạo ra một ngày mai tươi sáng hơn
+                </h3>
+                <h2>
+                    Tạo nên cuộc sống của ai đó bằng cách cho đi của bạn.
+                </h2>
+                <p>
+                    Bạn hãy <button type="button" class="btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">QUYÊN GÓP</button>
+
+                </p>
+            </div>
+            <img src="https://wp.wp-preview.com/cookandmeal/cookandmeal-1/wp-content/uploads/2021/07/arrow-color.png"
+                alt="" width="218" height="218">
+        </div>
+    </div>
+
+    <div class="news-container clearfix">
+        <div class="slider-container">
+            <div class="title-slide">
+                <h3>CÓ GÌ MỚI</h3>
+                <p>Đọc tin tức mới nhất của chúng tôi</p>
+            </div>
+            <div class="news-content">
+                <div class="card">
+                    <a href="/detail.css">
+                        <div class="text-img">
+                            <div class="overlay">
+                                <img src="https://bighearts.wgl-demo.net/wp-content/uploads/2020/09/donation_05-800x588.jpg"
+                                    class="card-img-top">
+                            </div>
+                            <p>Doanh Nghiệp</p>
+                        </div>
+                        <div class="card-body">
+                            <span>Ngày 1 Tháng 1 Năm 2023</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <hr>
+                            <h5 class="d-flex justify-content-end">Đi tới bài viết <i style="margin-left: 8px;"
+                                    class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/detail.html">
+                        <div class="text-img">
+                            <div class="overlay">
+                                <img src="https://bighearts.wgl-demo.net/wp-content/uploads/2020/08/donation_01-800x588.jpg"
+                                    class="card-img-top">
+                            </div>
+                            <p>Doanh Nghiệp</p>
+                        </div>
+                        <div class="card-body">
+                            <span>Ngày 1 Tháng 1 Năm 2023</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <hr>
+                            <h5 class="d-flex justify-content-end">Đi tới bài viết <i style="margin-left: 8px;"
+                                    class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/detail.html">
+                        <div class="text-img">
+                            <div class="overlay">
+                                <img src="https://bighearts.wgl-demo.net/wp-content/uploads/2020/09/donation_03-800x588.jpg"
+                                    class="card-img-top">
+                            </div>
+                            <p style="background-color: rgb(81, 169, 238);">Cá Nhân</p>
+                        </div>
+                        <div class="card-body">
+                            <span>Ngày 1 Tháng 1 Năm 2023</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <hr>
+                            <h5 class="d-flex justify-content-end">Đi tới bài viết <i style="margin-left: 8px;"
+                                    class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/detail.html">
+                        <div class="text-img">
+                            <div class="overlay">
+                                <img src="https://bighearts.wgl-demo.net/wp-content/uploads/2020/09/donation_04-800x588.jpg"
+                                    class="card-img-top">
+                            </div>
+                            <p>Doanh Nghiệp</p>
+                        </div>
+                        <div class="card-body">
+                            <span>Ngày 1 Tháng 1 Năm 2023</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <hr>
+                            <h5 class="d-flex justify-content-end">Đi tới bài viết <i style="margin-left: 8px;"
+                                    class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/detail.html">
+                        <div class="text-img">
+                            <div class="overlay">
+                                <img src="https://bighearts.wgl-demo.net/wp-content/uploads/2020/08/blog_03-1170x935.jpg"
+                                    class="card-img-top">
+                            </div>
+                            <p style="background-color: rgb(81, 169, 238);">Cá Nhân</p>
+                        </div>
+                        <div class="card-body">
+                            <span>Ngày 1 Tháng 1 Năm 2023</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <hr>
+                            <h5 class="d-flex justify-content-end">Đi tới bài viết <i style="margin-left: 8px;"
+                                    class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="all-news clearfix">
+            <a href="">TẤT CẢ TIN TỨC</a>
+        </div>
+    </div>
+
+    <div class="slogan-main">
+        <div class="d-flex justify-content-around align-items-center">
+            <div>
+                <img src="https://bighearts.wgl-demo.net/wp-content/uploads/2020/08/home-1_01-1.png" alt="">
+            </div>
+            <div class="slogan-text">
+                <h3>VÌ CON NGƯỜI</h3>
+                <h2>Giúp đỡ hôm nay. Giúp đỡ ngày mai</h2>
+                <p>Meals Together là cộng đồng chúng tôi đặt sự quan tâm đặc biệt vào việc cung cấp thực phẩm "thừa" để
+                    giúp giảm bớt khó khăn cho
+                    những người gặp tình trạng khó khăn trong cuộc sống. Điều này nhằm mang lại sự ấm no và hỗ trợ cho
+                    những cộng đồng cần giúp đỡ.
+                </p>
+
+                <a href="/loading.html" class="d-flex justify-content-end">TÌM HIỂU THÊM VỀ CHÚNG TÔI<i
+                        style="margin-left: 8px;" class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="donors-main">
+        <div class="title-slide">
+            <h3>CÁC HÃNG TÀI TRỢ</h3>
+            <p>Đồng hành cùng chúng tôi qua các chiến dịch</p>
+        </div>
+        <div class="donors-container">
+            <img src="https://internet-conference.vn/sites/default/files/2023-06/logo-viettel_0.png" alt="">
+            <img src="https://internet-conference.vn/sites/default/files/2023-06/logo-netnam.png" alt="">
+            <img src="https://internet-conference.vn/sites/default/files/2023-06/logo-GMO.png" alt="">
+            <img src="https://internet-conference.vn/sites/default/files/2023-06/logo-vng-cloud.png" alt="">
+            <img src="https://internet-conference.vn/sites/default/files/2023-06/logo-hcm-ict_0.png" alt="">
+            <img src="https://internet-conference.vn/sites/default/files/2023-06/logo-pa.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="about-us">
+                <img src="411200473_283536484712285_1687279601020422911_n-removebg-preview.png" alt="" width="100"
+                    height="100">
+                <p>Chúng tôi tò mò, đam mê và cam kết giúp các tổ chức phi lợi nhuận học hỏi và phát triển. Đóng góp
+                    ngay bây giờ!</p>
+            </div>
+        </div>
+        <div class="footer-policy">
+            <div class="footer-links">
+                <span>Điều khoản sử dụng</span>
+                <span>|</span>
+                <span>Chính sách bảo mật</span>
+            </div>
+            <div class="copyright">
+                <span>
+                    Bản quyền © 2024 bởi <a href="">GDSG[Storm]</a>. Bảo lưu mọi quyền.
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="font-weight: 600;">THÔNG TIN QUYÊN GÓP
+                    </h1>
+                </div>
+                <div class="modal-body">
+                    <!-- Chọn loại: Cá nhân hoặc Tổ chức -->
+                    <div class="mb-3">
+                        <label for="typeSelection" class="form-label">Đơn vị đóng góp:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="typeSelection" id="individual" checked>
+                            <label class="form-check-label" for="individual">
+                                Cá nhân(Nhà hảo tâm,...)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="typeSelection" id="organization">
+                            <label class="form-check-label" for="organization">
+                                Tổ chức(Doanh nghiệp, Nhà hàng,...)
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Các trường dữ liệu riêng cho cá nhân -->
+                    <div class="mb-3" id="individualFields">
+                        <form>
+
+                            <div class="mb-3">
+                                <label for="organizationName" class="form-label">Họ và Tên:</label>
+                                <input type="text" class="form-control" id="organizationName"
+                                    placeholder="Nhập họ và tên">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Địa Chỉ Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Nhập địa chỉ Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="phoneNumber" class="form-label">Số điện thoại:</label>
+                                <input type="tel" class="form-control" id="phoneNumber"
+                                    placeholder="Nhập số điện thoại">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="address" class="form-label">Địa Chỉ (Nếu Có):</label>
+                                <input type="text" class="form-control" id="address" placeholder="Nhập địa chỉ">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="foodType" class="form-label">Loại Thức Ăn:</label>
+                                <input type="text" class="form-control" id="foodType"
+                                    placeholder="(Ví dụ: gạo, mì, đậu, thực phẩm đóng gói,...)">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="quantity" class="form-label">Số Lượng (Đơn Vị):</label>
+                                <input type="number" class="form-control" id="quantity" placeholder="Nhập số lượng">
+                            </div>
+
+                            <div class="mb-3">
+                                <p>Phương Tiện Giao Thức Ăn:</p>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="deliveryDirect"
+                                        name="deliveryMethod">
+                                    <label class="form-check-label" for="deliveryDirect">Giao hàng trực tiếp</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="selfPickup" name="deliveryMethod">
+                                    <label class="form-check-label" for="selfPickup">Chủ động đưa đến điểm quyên
+                                        góp</label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <p>Thời Gian Dự Kiến Giao Thức Ăn:</p>
+                                <label for="deliveryDate" class="form-label">Ngày:</label>
+                                <input type="date" class="form-control" id="deliveryDate">
+                                <label for="deliveryTime" class="form-label">Giờ (Nếu Có):</label>
+                                <input type="time" class="form-control" id="deliveryTime">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="deliveryAddress" class="form-label">Gửi Đến (Địa Chỉ Hoặc Địa Điểm):</label>
+                                <input type="text" class="form-control" id="deliveryAddress">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="note" class="form-label">Ghi Chú/ Thông Điệp (Nếu Có):</label>
+                                <textarea class="form-control" id="note" rows="4"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <p>Xác Nhận Quyên Góp:</p>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="confirmInfo">
+                                    <label class="form-check-label" for="confirmInfo">Tôi cam kết cung cấp thông tin
+                                        đúng và chính xác.</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="confirmContribution">
+                                    <label class="form-check-label" for="confirmContribution">Tôi xác nhận quyên góp
+                                        thức ăn theo thông tin đã điền trên.</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Các trường dữ liệu riêng cho tổ chức -->
+                    <div class="mb-3" id="organizationFields" style="display:none;">
+                        <form action="">
+
+                            <div class="mb-3">
+                                <label for="representativeName" class="form-label">Tên Tổ Chức:</label>
+                                <input type="text" class="form-control" id="representativeName"
+                                    placeholder="Nhập tên tổ chức">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="representativeName" class="form-label">Người Đại Diện Liên Hệ:</label>
+                                <input type="text" class="form-control" id="representativeName"
+                                    placeholder="Nhập Người Đại Diện Liên Hệ">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="representativeName" class="form-label">Địa Chỉ Email Tổ Chức:</label>
+                                <input type="text" class="form-control" id="representativeName"
+                                    placeholder="Nhập Địa Chỉ Email Tổ Chức">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="representativeName" class="form-label">Số Điện Thoại Tổ Chức:</label>
+                                <input type="text" class="form-control" id="representativeName"
+                                    placeholder="Nhập Số Điện Thoại Tổ Chức">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="representativeName" class="form-label">Địa Chỉ Tổ Chức (Nếu Có):</label>
+                                <input type="text" class="form-control" id="representativeName">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="foodType" class="form-label">Loại Thức Ăn:</label>
+                                <input type="text" class="form-control" id="foodType"
+                                    placeholder="(Ví dụ: gạo, mì, đậu, thực phẩm đóng gói,...)">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="quantity" class="form-label">Số Lượng (Đơn Vị):</label>
+                                <input type="number" class="form-control" id="quantity" placeholder="Nhập số lượng">
+                            </div>
+
+                            <div class="mb-3">
+                                <p>Phương Tiện Giao Thức Ăn:</p>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="deliveryDirect"
+                                        name="deliveryMethod">
+                                    <label class="form-check-label" for="deliveryDirect">Giao hàng trực tiếp</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="selfPickup" name="deliveryMethod">
+                                    <label class="form-check-label" for="selfPickup">Chủ động đưa đến điểm quyên
+                                        góp</label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <p>Thời Gian Dự Kiến Giao Thức Ăn:</p>
+                                <label for="deliveryDate" class="form-label">Ngày:</label>
+                                <input type="date" class="form-control" id="deliveryDate">
+                                <label for="deliveryTime" class="form-label">Giờ (Nếu Có):</label>
+                                <input type="time" class="form-control" id="deliveryTime">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="deliveryAddress" class="form-label">Gửi Đến (Địa Chỉ Hoặc Địa Điểm):</label>
+                                <input type="text" class="form-control" id="deliveryAddress">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="note" class="form-label">Ghi Chú/ Thông Điệp (Nếu Có):</label>
+                                <textarea class="form-control" id="note" rows="4"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <p>Xác Nhận Quyên Góp:</p>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="confirmInfo">
+                                    <label class="form-check-label" for="confirmInfo">Tôi cam kết cung cấp thông tin
+                                        đúng và chính xác.</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="confirmContribution">
+                                    <label class="form-check-label" for="confirmContribution">Tôi xác nhận quyên góp
+                                        thức ăn theo thông tin đã điền trên.</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btnConfirm btn " data-bs-dismiss="modal">Xác Nhận</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script>
+    window.addEventListener('scroll', function () {
+        var navbar = document.querySelector('.container-nav');
+        if (window.scrollY >= 100) {
+            navbar.style.backgroundColor = 'white';
+            navbar.style.boxShadow = '0 4px 7px -5px rgba(91, 89, 89, 0.55)';
+        } else {
+            navbar.style.backgroundColor = '';
+            navbar.style.boxShadow = '';
+        }
+        navbar.style.transition = 'height 0.4s, background-color 0.4s, box-shadow 0.4s';
+    });
+
+
+    $('.news-content').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false
+    })
+
+    $('.donors-container').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false
+    })
+
+
+    document.getElementById('individual').addEventListener('change', function () {
+        document.getElementById('individualFields').style.display = 'block';
+        document.getElementById('organizationFields').style.display = 'none';
+    });
+
+    document.getElementById('organization').addEventListener('change', function () {
+        document.getElementById('individualFields').style.display = 'none';
+        document.getElementById('organizationFields').style.display = 'block';
+    });
+</script>
+
+</html>
